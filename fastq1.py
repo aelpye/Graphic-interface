@@ -64,7 +64,8 @@ class FastqWindow(QMainWindow):
 
         layout.addLayout(top_panel)
 
-        # Статус (куда перетаскивать файл)         self.status_label = QLabel("Перетащите файл сюда или нажмите кнопку 'Выбрать FASTQ файл'")
+        # Статус (куда перетаскивать файл)         
+        self.status_label = QLabel("Перетащите файл сюда или нажмите кнопку")
         self.status_label.setFont(QFont("Arial", 12))
         self.status_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.status_label.setStyleSheet(f"""
@@ -78,7 +79,7 @@ class FastqWindow(QMainWindow):
         """)
         layout.addWidget(self.status_label)
 
-        # --- Место для графиков ---
+        # Место для графиков
         self.figure = Figure(figsize=(10, 8), dpi=100)
         self.figure.patch.set_facecolor(BG)
         self.canvas = FigureCanvas(self.figure)

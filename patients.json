@@ -1,11 +1,47 @@
 [
   {
-    "surname": "К",
-    "name": "Д",
-    "patronymic": "Д",
-    "age": 20,
-    "sex": "Ж",
+    "surname": "Романов",
+    "name": "Николай",
+    "patronymic": "Александрович",
+    "age": 50,
+    "sex": "М",
     "height": 170,
-    "weight": 60.0
+    "weight": 78.0
+  },
+  {
+    "surname": "Терешкова",
+    "name": "Валентина",
+    "patronymic": "Владимировна",
+    "age": 87,
+    "sex": "Ж",
+    "height": 162,
+    "weight": 68.0
+  },
+  {
+    "surname": "Кавагути",
+    "name": "Юко",
+    "patronymic": "",
+    "age": 44,
+    "sex": "Ж",
+    "height": 157,
+    "weight": 50.0
+  },
+  {
+    "surname": "Ан",
+    "name": "Виктор",
+    "patronymic": "",
+    "age": 40,
+    "sex": "М",
+    "height": 172,
+    "weight": 65.0
+  },
+  {
+    "surname": "Петросян",
+    "name": "Аделия",
+    "patronymic": "Тиграновна",
+    "age": 19,
+    "sex": "Ж",
+    "height": 152,
+    "weight": 40.0
   }
 ]
